@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        app:srcCompat="@drawable/guru3"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="265dp"
+        android:text="IKSPI"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="401dp"
+        android:layout_height="281dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="4dp"
+        android:text='Perguruan Seni Ilmu Beladiri Kung Fu IKS.PI. Kera Sakti berdiri pada tanggal 15 Januari 1980 di Jl. Merpati No. 45, Kel. Nambangan Lor, Kec Mangunharjo, Kodya Madiun. Adapun nama dari perguruan ini semula adalah IKS.PI. yang artinya adalah Ikatan Keluarga Silat "Putera Indonesia" tetapi ketika perguruan mulai berkembang diberi nama tambahan "Kera Sakti" dibelakangnya, sebab masyarakat maupun murid murid perguruan lebih mengenal nama jurus perguruan yaitu teknik jurus keranya daripada nama asli perguruan. Untuk itu selanjutnya dalam memudahkan pencarian identitas perguruan sekaligus secara tidak langsung menambah wibawa nama perguruan maka disebutlah IKS.PI. Kera Sakti.' />
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/guru1"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="210dp"
+        android:text="Merpati Putih"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="326dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-335dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toStartOf="@+id/imageView"
+        android:text=" Lambang PPS Betako Merpati Putih Merpati Putih (MP) merupakan salah satu perguruan pencak silat bela diri Tangan Kosong (PPS Betako) dan merupakan salah satu aset budaya bangsa, mulai terbentuk aliran jenis beladiri ini pada sekitar tahun 1550-an dan perlu dilestarikan serta dikembangkan selaras dengan perkembangan dan kemajuan ilmu pengetahuan serta teknologi dewasa ini. Saat ini MP merupakan salah satu anggota Ikatan Pencak Silat Seluruh Indonesia (IPSI) dan Martial Arts Federation For World Peace (MAFWP) serta Persekutuan Pencak Silat Antar Bangsa atau PERSILAT (International Pencak Silat Federation)."
+        android:textSize="18sp" />
+
+</RelativeLayout>
